@@ -1,0 +1,128 @@
+<html>
+<head> 
+<link rel ="stylesheet" href="rstylesheet1.css">
+
+<title> The GMIX </title> 
+<nav> 
+<div class="header">
+<div class="header-right">
+<a class="active" href="home.html" >HOME</a>
+<a href="jazzCode.html">JAZZ</a>
+<a href="R&B.html">RnB</a>
+<a href="rap.html"> RAP</a>
+<a href="Pop Music.html">POP</a>   		
+<a href="contact.html">CONTACT</a> 
+</div>
+</div>
+</nav> 
+</head>
+
+<body>
+<h1> <center> RAP </center> </h1>
+<hr> 
+
+<h2> HISTORY </h2> 
+<p> Nothing can compare to rap music, it is
+ one of the most popular music genres. The roots 
+ of rap is planted deep in the heart of Africa.
+ 
+ The first DJ also known as the founding father of hip hop
+ goes by the name DJ Kool Herc. He introduced us to rap on
+ August 11th, 1973 in the Bronx, New York by hosting 
+ back to school parties. This is when turn tables come 
+ into place switching between different songs.  </p> 
+
+<img class="mySlides" src="pictures/rapper5.jpg" width = "50%" height = "50%" align = "center" >
+<img class="mySlides" src="pictures/rapper6.jpg" width = "50%" height = "50%" align = "center"> 
+<img class="mySlides" src="pictures/rapper7.jpg" width = "50%" height = "50%" align = "center">
+<img class="mySlides" src="pictures/rapper8.jpg" width = "50%" height = "50%" align = "center">
+<center>
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</center>
+<script> 
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script> 
+
+<div class ="container" > 
+<div class ="floatLeft" >
+
+<tr><table>
+<tr> <th style="font-size:2em"> THE TOP 10 FEMALE </th> </tr>
+<tr> <td>1) Nicki Minaj</td> </tr>
+<tr> <td>2) MC Lyte   </td> </tr>
+<tr> <td>3) Lil Kim  </td> </tr>
+<tr> <td>4) Lauryn Hill </td> </tr>
+<tr> <td>5) Eve </td> </tr>
+<tr> <td>6) Missy Elliot </td> </tr>
+<tr> <td>7) Queen Latifah </td> </tr>
+<tr> <td>8) Lisa "Left Eye" Lopes </td> </tr>
+<tr> <td>9) Trina  </td></tr> </tr>
+<tr> <td>10) M.I.A. </td> </tr>
+</table>
+</div>
+  
+<div class ="floatRight">
+<tr><table>
+<tr> <th style="font-size: 2em;"> THE TOP 10 MALE </th> </tr>
+<tr> <td>1) 2 Pac </td> </tr>
+<tr> <td>2) Eminem </td> </tr>
+<tr> <td>3)Lil Wayne </td> </tr>
+<tr> <td>4) Kendrick Lamar </td> </tr>
+<tr> <td>5) J Cole </td> </tr>
+<tr> <td>6) Notorious B.I.G </td> </tr>
+<tr> <td>7) NAS </td> </tr>
+<tr> <td>8) Jay-Z</td> </tr> 
+<tr> <td>9) Rakim </td> </tr>
+<tr> <td>10) Andre 3000 </td> </tr>
+</table>
+</div>
+</div>
+
+ <h2> POPULAR ARTIST </h2> 
+<center>
+<img src="pictures/nickiminajrap.jpg" alt="Nicki Minaj" width="135" height="125">
+<h2><strong>Nicki Minaj</strong></h2>
+<p align="center">
+Nicki Minaj's first solo album, Pink Friday, peaked at
+ No. 1 on the Billboard 200. The album spawned five Top
+ 40 singles: "Your Love," "Check It Out," "Right Thru Me,"
+ "Moment 4 Life," and "Fly." 
+</p>
+
+<hr>
+<center>
+<img src="pictures/kendricklamarrap.jpg" alt="Kendrick Lamar" width="135" height="125">
+<h2><strong>Kendrick Lamar</strong></h2>
+<p align="center">
+Kendrick Lamar broke through with his 2012 album, 
+Good Kid, M.A.A.D City, which peaked at No. 2 on 
+the Billboard 200 and No. 1 on Billboard's Top
+ R&B/Hip-Hop Albums chart  
+</p>
+</center>
+</body>
+<footer>
+  <p>Posted by: Team6 </p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+  <img src="pictures/logo.jpg" alt="LOGO" width="100" height="100">
+
+</footer> 
+</html>

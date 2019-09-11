@@ -1,0 +1,95 @@
+ body { background-color: black;
+
+height: 100%;
+width: 100%;
+background-repeat: no-repeat; 
+background-size: 100%;
+
+ }
+ 
+ .header {
+	background-color: transparent;
+	overflow: hidden;
+	padding: 20px 10px; 
+}	
+
+.header a:hover { 
+ background: blue; 
+ color: #DAA520;
+}
+.header a {
+float: left;	
+color: #DAA520;
+text-align: center;
+padding: 12px;
+font-size: 18px;
+text-decoration: none;  
+border-radius: 4px; 
+line-height: 25px; 
+}
+
+.header a.logo { 
+font-size: 25px; 
+font-weight: bold; 
+} 
+
+.header a.active { 
+background-color: grey; 
+color: #DAA520;;
+} 
+
+.header-right { 
+float: right; 
+}
+
+a { 
+ color: #DAA520
+}
+
+	
+p { text-align: center; color: #DAA520;} 
+
+h1 { color: blue; 
+	border-style: double;
+	} 
+
+
+table { 
+border-style: solid;
+background-color: transparent; 
+color: blue;
+width: 100%; 
+ } 
+th {
+color: purple; }
+
+th, td { 
+font-size: 1em;
+font-weight:bold;
+text-align: center;
+padding: 15px; 
+border-bottom: 1px solid #DAA520; 
+}
+tr:hover { 
+background-color: grey; 
+}
+
+.floatLeft { 
+font-size: 1em; 
+font-weight:bold; 
+width: 50%; 
+float: left; 
+} 
+
+.floatRight { 
+font-size: 1em; 
+font-weight: bold;
+width: 50%;
+float: right; 
+}
+
+.container { 
+overflow: hidden; 
+} 
+
+footer { display: block;}

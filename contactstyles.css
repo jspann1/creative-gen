@@ -1,0 +1,93 @@
+body { 
+background-color: purple; 
+background-image: url(pictures/bg4.jpg); 
+background-repeat: no-repeat; 
+height: 100%;
+width: 100%; 
+background-size: cover; 
+}
+.title {
+	color: blue;
+border-style: double dotted;
+border-color: #DAA520;	
+	font-size: 4em;
+}
+.header {
+	background-color: transparent;
+	overflow: hidden;
+	padding: 20px 10px; 
+}	
+
+.header a:hover { 
+ background: blue; 
+ color: #DAA520;
+}
+.header a {
+float: left;	
+color: #DAA520;
+text-align: center;
+padding: 12px;
+font-size: 18px;
+text-decoration: none;  
+border-radius: 4px; 
+line-height: 25px; 
+}
+
+.header a.logo { 
+font-size: 25px; 
+font-weight: bold; 
+} 
+
+.header a.active { 
+background-color: grey; 
+color: #DAA520;;
+} 
+
+.header-right { 
+float: right; 
+}
+
+a { 
+ color: #DAA520
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid blue; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #DAA520;
+    padding: 20px;
+}
+
+.checked {
+    color: #DAA520;
+}
+
+
+
+footer { display: block;}
+
